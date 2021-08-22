@@ -1,0 +1,11 @@
+.elements__title {
+    background-color: #FFFFFF;
+    width: 246px;
+    min-height: 21.88%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto 0 auto;
+    padding: 0;    
+}

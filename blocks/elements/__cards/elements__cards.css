@@ -1,0 +1,9 @@
+.elements__cards {
+    background-color: #FFFFFF;
+    border-radius: 3%;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    max-width: 282px;
+    max-height: 361px;
+}
