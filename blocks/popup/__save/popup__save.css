@@ -13,7 +13,7 @@
     line-height: 1.36em;
 }
 .popup__save:hover {
-    background-color: rgba(0, 0, 0, .5);
+    background-color: rgba(0, 0, 0, .8);
     cursor: pointer;
     transition: 0.5s;
 }

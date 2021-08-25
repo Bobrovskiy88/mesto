@@ -1,8 +1,4 @@
 .page {
     background-color: #000000;
     color: #FFFFFF;
-    max-width: 69vw;
-    max-height: 100%;
-    position: relative;
-    z-index: -1;
 }

@@ -1,15 +1,19 @@
 .popup__content {
-    width: 470px;
-    position: relative;
-    display: flex;
-    flex-direction: column;
-    z-index: 2;
-    opacity: 1;
-    margin: 110px auto auto 26%;
+    width: 100%;
+    max-width: 430px; 
+    position: relative; 
+    z-index: 2; 
+    opacity: 1; 
+    background-color: #FFFFFF;
+    border-radius: 10px;
+    height: 330px;
+    margin-top: 195px;
 }
 @media screen and  (max-width: 767px) {
     .popup__content {
-        width: 282px;
-        margin: 87px auto auto auto;
+        margin-top: 150px;
+        width: 100%;
+        max-width: 282px;
+        height: 322px;
     }
 }

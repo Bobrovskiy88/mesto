@@ -1,6 +1,7 @@
 .page__content {
+    max-width: 69vw;
+    position: relative;
     max-width: 880px;
-   
     margin: 0 auto 0 auto;
     padding: 0;
 }
