@@ -11,8 +11,8 @@
 }
 @media screen and  (max-width: 767px) {
     .popup__content {
-        margin-top: 150px;
         max-width: 282px;
+        margin-top: 150px;
         height: 322px;
     }
 }
