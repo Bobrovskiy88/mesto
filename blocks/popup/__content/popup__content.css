@@ -6,13 +6,10 @@
     opacity: 1;
     background-color: #FFFFFF;
     border-radius: 10px;
-    height: 330px;
-    margin-top: 195px;
+    box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.15);
 }
 @media screen and  (max-width: 767px) {
     .popup__content {
-        margin-top: 150px;
         max-width: 282px;
-        height: 322px;
     }
 }

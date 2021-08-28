@@ -17,10 +17,10 @@
                 <div style="background-image: url('./images/cousteau.png')" class="profile__avatar"></div>
                 <div class="profile__info">
                     <h1 class="profile__name">Жак-Ив Кусто</h1>
-                    <button type="button" class="profile__edit-button"></button>
+                    <button type="button" class="profile__edit-button" aria-label="Редактирование профиля"></button>
                     <p class="profile__prof">Исследователь океана</p>
                 </div>
-                <button type="button" class="profile__add-button"></button>
+                <button type="button" class="profile__add-button" aria-label="Добавление карточек"></button>
             </section>
             <section class="elements">
                 <article class="elements__cards">
@@ -69,12 +69,12 @@
 
         </main>
         <footer class="footer">
-            <h2 class="footer__text">&#169; 2020 Mesto Russia</h2>
+            <p class="footer__text">&#169; 2020 Mesto Russia</p>
         </footer>
         <section class="popup">
             <div class="popup__content">
-                <button type="button" class="popup__close"></button>
-                <form name="popup" class="popup__form">
+                <button type="button" class="popup__close" aria-label="Закрытие попап"></button>
+                <form name="edit_profile" class="popup__form">
                     <h2 class="popup__title">Редактировать профиль</h2>
                         <input type="text" name="name" class="popup__input_theme_name popup__input" value="" placeholder="Имя Фамилия" required>
                         <input type="text" name="prof" class="popup__input_theme_prof popup__input" value=""placeholder="Профессия" required>
