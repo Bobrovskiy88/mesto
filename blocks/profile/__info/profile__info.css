@@ -10,12 +10,13 @@
 
 @media screen and  (max-width: 767px) {
     .profile__info {
-        max-width: 100%;
-        grid-template-columns: 246px 36px;
-        grid-template-rows: 26px 14px;
-        gap: 14px 0px;
-        align-items: center;
-        justify-content: center;
-        margin: 32px auto 32px auto;
+    max-width: 100%;
+    grid-template-columns: 210px 34px;
+    grid-template-rows: 26px 14px;
+    gap: 14px 0px;
+    align-items: center;
+    justify-content: center;
+    margin: 35px 0px 32px 6px;
+    width: 276px;
     }
 }

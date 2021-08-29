@@ -1,11 +1,11 @@
 .elements__title {
     background-color: #FFFFFF;
     width: 246px;
-    height: 79px;
+    height: 100%;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
     margin: 0 auto 0 auto;
-    padding: 0;    
+    padding: 0;
 }
